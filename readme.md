@@ -1,17 +1,15 @@
-# elefrant-template-engine Component
+# elefrant-session Component
 
-[![wercker status](https://app.wercker.com/status/d5bc1cf28aa25b0850a4af4a44eaf8f2/s/master "wercker status")](https://app.wercker.com/project/bykey/d5bc1cf28aa25b0850a4af4a44eaf8f2)
+[![wercker status](https://app.wercker.com/status/977049da53b3450a22c1bcea7d9c0ebb/s/master "wercker status")](https://app.wercker.com/project/bykey/977049da53b3450a22c1bcea7d9c0ebb)
 
-[![Dependency Status](https://gemnasium.com/Elefrant/elefrant-template-engine.svg)](https://gemnasium.com/Elefrant/elefrant-template-engine)
+[![Dependency Status](https://gemnasium.com/Elefrant/elefrant-session.svg)](https://gemnasium.com/Elefrant/elefrant-session)
 
 
-## Usage
+This module is made to manage session without cookies in a REST server powered by restify. Please install Redis (>=2.0.0) in your server to enable this module.
 
-Use template engine(swig) to render a html page with Elefrant.
+### Config `/config/`
 
-```js
-res.render(path, data); // Render html
-```
+Copy `session.js` from `./components/elefrant-session` to main config folder.
 
 
 ## Launch tests
