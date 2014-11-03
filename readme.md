@@ -5,7 +5,7 @@
 [![Dependency Status](https://gemnasium.com/Elefrant/elefrant-session.svg)](https://gemnasium.com/Elefrant/elefrant-session)
 
 
-This module is made to manage session without cookies in a REST server powered by restify. Please install Redis (>=2.0.0) in your server to enable this module.
+Manage session without cookies in a REST server powered by restify. Please install Redis (>=2.0.0) in your server to enable this module.
 
 ### Config `/config/`
 
