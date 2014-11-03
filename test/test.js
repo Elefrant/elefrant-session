@@ -6,7 +6,7 @@ var component = require('../component'),
 
 var server = restify.createServer();
 
-describe('template engine', function () {
+describe('session', function () {
 
 	it('exports an object', function () {
 		should.exist(component);
