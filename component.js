@@ -20,7 +20,7 @@ module.exports = {
 		var session = sessionServer({
 			debug : debug,
 			ttl   : config.ttl,
-			logger: config.logger,
+			logger: elefrant || config.logger,
 			sidLength: config.sidLength,
 			persist: config.persist,
 			connection: config.connection,
